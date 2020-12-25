@@ -1,52 +1,30 @@
-# Prerequisites
-*.d
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Created by https://www.toptal.com/developers/gitignore/api/modelsim
+# Edit at https://www.toptal.com/developers/gitignore?templates=modelsim
 
-# Linker output
-*.ilk
-*.map
-*.exp
+### ModelSim ###
+# ignore ModelSim generated files and directories (temp files and so on)
+[_@]*
 
-# Precompiled Headers
-*.gch
-*.pch
+# ignore compilation output of ModelSim
+*.mti
+*.dat
+*.dbs
+*.psm
+*.bak
+*.cmp
+*.jpg
+*.html
+*.bsf
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# ignore simulation output of ModelSim
+wlf*
+*.wlf
+*.vstf
+*.ucdb
+cov*/
+transcript*
+sc_dpiheader.h
+vsim.dbg
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# End of https://www.toptal.com/developers/gitignore/api/modelsim
